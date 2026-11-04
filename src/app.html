@@ -1251,7 +1251,7 @@ function renderAudit(){
     `<p style="margin-top:8px">${N.rmq}</p><p>${N.filled}</p>` +
     `<h4>與官網時刻表抽查比對<small>${off.pages} 頁</small></h4><div class="awrap"><table class="atab"><thead><tr><th>項目</th><th class="n">數量</th></tr></thead><tbody>` +
     `<tr><td>比對的航班日</td><td class="n">${num(off.compared)}</td></tr><tr><td>官網有、本系統沒有</td><td class="n" style="color:var(--${off.missing.length ? 'accent' : 'live'})">${off.missing.length}</td></tr><tr><td>本系統有、官網沒有</td><td class="n" style="color:var(--${off.extra.length ? 'accent' : 'live'})">${off.extra.length}</td></tr><tr><td>時刻相同</td><td class="n">${num(off.same)}</td></tr><tr><td>時刻不同</td><td class="n">${off.compared - off.same - off.missing.length - off.extra.length}</td></tr></tbody></table></div>` +
-    `<p style="margin-top:8px">桃園去程全部航線查過 11/9–15、12/14–20、1/18–24、2/8–14、3/8–14 這五週，其他週次只定點查部分航線，未抽查的週次仍可能有遺漏。${N.time}</p>` +
+    `<p style="margin-top:8px">上表是第一輪：桃園去程全部航線查過 11/9–15、12/14–20、1/18–24、2/8–14、3/8–14 這五週。${N.sweep}未查的週次仍可能有遺漏。${N.time}</p>` +
     `<h4>與機場公布資料比對<small>未收錄＝機場有、本系統沒有</small></h4><div class="awrap"><table class="atab"><thead><tr><th>來源</th><th class="n">航班</th><th class="n">未收錄</th><th class="n">多列</th><th class="n">時刻差</th></tr></thead><tbody>` +
     air.sources.map(s => `<tr><td>${s.title}<br><small>${s.days.length > 1 ? `${md(s.days[0])}–${md(s.days[s.days.length-1])}` : md(s.days[0] || air.checked)}</small></td><td class="n">${num(s.flights)}</td><td class="n" style="color:var(--${s.missing.length ? 'accent' : 'live'})">${s.missing.length}</td><td class="n">${s.extra.length}</td><td class="n">${s.moved.length}</td></tr>`).join('') + `</tbody></table></div>` +
     `<p style="margin-top:8px">${N.compare}</p>` +
