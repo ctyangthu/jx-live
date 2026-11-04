@@ -1,0 +1,134 @@
+{
+ "checked": "2026-11-04",
+ "sources": [
+  {
+   "title": "桃園機場 即時航班",
+   "flights": 223,
+   "days": [
+    "2026-11-03",
+    "2026-11-04",
+    "2026-11-05"
+   ],
+   "missing": [],
+   "before": [
+    {
+     "day": "2026-11-03",
+     "airport": "TPE",
+     "io": "arr",
+     "no": "JX1",
+     "time": "05:25",
+     "other": "LAX"
+    },
+    {
+     "day": "2026-11-03",
+     "airport": "TPE",
+     "io": "arr",
+     "no": "JX25",
+     "time": "04:55",
+     "other": "PHX"
+    },
+    {
+     "day": "2026-11-03",
+     "airport": "TPE",
+     "io": "arr",
+     "no": "JX3011",
+     "time": "05:15",
+     "other": "SFO"
+    },
+    {
+     "day": "2026-11-03",
+     "airport": "TPE",
+     "io": "arr",
+     "no": "JX3031",
+     "time": "04:55",
+     "other": "SEA"
+    }
+   ],
+   "extra": [],
+   "moved": []
+  },
+  {
+   "title": "松山機場 當日航班",
+   "flights": 0,
+   "days": [
+    "2026-11-04"
+   ],
+   "missing": [],
+   "before": [],
+   "extra": [],
+   "moved": []
+  },
+  {
+   "title": "松山機場 定期班表（週表）",
+   "flights": 0,
+   "days": [],
+   "missing": [],
+   "before": [],
+   "extra": [],
+   "moved": []
+  },
+  {
+   "title": "清泉崗機場 當日航班",
+   "flights": 19,
+   "days": [
+    "2026-11-04"
+   ],
+   "missing": [],
+   "before": [],
+   "extra": [
+    {
+     "day": "2026-11-04",
+     "airport": "RMQ",
+     "io": "arr",
+     "no": "JX309",
+     "time": "10:55",
+     "other": "SHI"
+    }
+   ],
+   "moved": [
+    {
+     "day": "2026-11-04",
+     "airport": "RMQ",
+     "io": "arr",
+     "no": "JX303",
+     "published": "17:25",
+     "ours": "17:35",
+     "other": "OKA",
+     "other_ours": "OKA"
+    }
+   ]
+  },
+  {
+   "title": "高雄機場 當日航班",
+   "flights": 0,
+   "days": [
+    "2026-11-04"
+   ],
+   "missing": [],
+   "before": [],
+   "extra": [],
+   "moved": []
+  },
+  {
+   "title": "高雄機場 定期班表（四週）",
+   "flights": 0,
+   "days": [],
+   "missing": [],
+   "before": [],
+   "extra": [],
+   "moved": []
+  },
+  {
+   "title": "清泉崗機場 定期班表（班號）",
+   "flights": 26,
+   "days": [
+    "2026-11-04",
+    "2026-11-10"
+   ],
+   "missing": [],
+   "before": [],
+   "extra": [],
+   "moved": []
+  }
+ ]
+}

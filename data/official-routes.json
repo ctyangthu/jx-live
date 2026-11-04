@@ -1,0 +1,12 @@
+{
+  "checked": "2026-11-04",
+  "source": "星宇官網班機時刻表頁面載入的機場清單（isOperatedByJX 與各機場的可飛航點）",
+  "routes": {
+    "TPE": ["BKK","CEB","CGK","CNX","CRK","CTS","DAD","DPS","FUK","HAN","HKD","HKG","KIX","KMJ","KUL","LAX","MFM","MNL","NGO","NRT","OKA","ONT","PHX","PQC","PRG","PUS","SDJ","SEA","SFO","SGN","SHI","SIN","UKB"],
+    "RMQ": ["CTS","DAD","KMJ","MFM","NGO","NRT","OKA","PQC","PUS","SHI","TAK","UKB"],
+    "KHH": ["OKA","UKB"],
+    "TSA": []
+  },
+  "partner_only": {"AUH": "TPE", "BCN": "TPE"},
+  "listed_without_route": ["ZRH", "SYD"]
+}
