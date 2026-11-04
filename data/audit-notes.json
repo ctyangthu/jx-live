@@ -1,24 +1,104 @@
 {
   "added": [
-    {"no": "JX360／361", "o": "KHH", "d": "UKB", "when": "2027/1/1 起每日", "src": "官網時刻表、AeroRoutes。高雄首航，TDX 與高雄機場都還沒列"},
-    {"no": "JX362／363", "o": "KHH", "d": "OKA", "when": "2027/1/1 起每日", "src": "官網時刻表、AeroRoutes。高雄首航，TDX 與高雄機場都還沒列"},
-    {"no": "JX824／825", "o": "TPE", "d": "KIX", "when": "2027/1/15 起每日", "src": "官網時刻表、AeroRoutes。大阪第三班，11/2 才開賣"},
-    {"no": "JX201／202", "o": "TPE", "d": "MFM", "when": "週五，12/4 起", "src": "官網時刻表"},
-    {"no": "JX201／3201／202", "o": "TPE", "d": "MFM", "when": "週二、六、日，2/2 起", "src": "官網時刻表"},
-    {"no": "JX842／843", "o": "TPE", "d": "FUK", "when": "週日，12/6 起", "src": "官網時刻表"},
-    {"no": "JX838／839", "o": "TPE", "d": "NGO", "when": "週四，12/3–12/31", "src": "官網時刻表"},
-    {"no": "JX1233／1234", "o": "TPE", "d": "HKG", "when": "加班機 12/17、12/31", "src": "官網時刻表"},
-    {"no": "JX715／716", "o": "TPE", "d": "HAN", "when": "週二，1/5 起", "src": "官網時刻表"},
-    {"no": "JX900／901", "o": "TPE", "d": "PUS", "when": "週一，3/1 起", "src": "官網時刻表"},
-    {"no": "JX902／903", "o": "TPE", "d": "PUS", "when": "週五，3/5 起", "src": "官網時刻表"},
-    {"no": "JX8072／8071", "o": "TPE", "d": "GUM", "when": "包機 2/4、2/8、2/12", "src": "只有 AeroRoutes，官網時刻表查不到，標示「包機」"}
+    {
+      "no": "JX360／361",
+      "o": "KHH",
+      "d": "UKB",
+      "when": "2027/1/1 起每日",
+      "src": "官網時刻表、AeroRoutes。高雄首航，TDX 與高雄機場都還沒列"
+    },
+    {
+      "no": "JX362／363",
+      "o": "KHH",
+      "d": "OKA",
+      "when": "2027/1/1 起每日",
+      "src": "官網時刻表、AeroRoutes。高雄首航，TDX 與高雄機場都還沒列"
+    },
+    {
+      "no": "JX824／825",
+      "o": "TPE",
+      "d": "KIX",
+      "when": "2027/1/15 起每日",
+      "src": "官網時刻表、AeroRoutes。大阪第三班，11/2 才開賣"
+    },
+    {
+      "no": "JX201／202",
+      "o": "TPE",
+      "d": "MFM",
+      "when": "週五，12/4 起",
+      "src": "官網時刻表"
+    },
+    {
+      "no": "JX201／3201／202",
+      "o": "TPE",
+      "d": "MFM",
+      "when": "週二、六、日，2/2 起",
+      "src": "官網時刻表"
+    },
+    {
+      "no": "JX842／843",
+      "o": "TPE",
+      "d": "FUK",
+      "when": "週日，12/6 起",
+      "src": "官網時刻表"
+    },
+    {
+      "no": "JX838／839",
+      "o": "TPE",
+      "d": "NGO",
+      "when": "週四，12/3–12/31",
+      "src": "官網時刻表"
+    },
+    {
+      "no": "JX1233／1234",
+      "o": "TPE",
+      "d": "HKG",
+      "when": "加班機 12/17、12/31",
+      "src": "官網時刻表"
+    },
+    {
+      "no": "JX715／716",
+      "o": "TPE",
+      "d": "HAN",
+      "when": "週二，1/5 起",
+      "src": "官網時刻表"
+    },
+    {
+      "no": "JX900／901",
+      "o": "TPE",
+      "d": "PUS",
+      "when": "週一，3/1 起",
+      "src": "官網時刻表"
+    },
+    {
+      "no": "JX902／903",
+      "o": "TPE",
+      "d": "PUS",
+      "when": "週五，3/5 起",
+      "src": "官網時刻表"
+    },
+    {
+      "no": "JX3201",
+      "o": "TPE",
+      "d": "MFM",
+      "when": "3/27（取代當日 JX201）",
+      "src": "官網時刻表，時刻相同，只是班號不同"
+    },
+    {
+      "no": "JX8072／8071",
+      "o": "TPE",
+      "d": "GUM",
+      "when": "包機 2/4、2/8、2/12",
+      "src": "只有 AeroRoutes，官網時刻表查不到，標示「包機」"
+    }
   ],
   "notes": {
     "rmq": "TDX 的清泉崗資料只到 2027/1/3。官網 12/14–12/20、1/4–1/10、2/8–2/14、3/8–3/14 這幾週的班號、時刻、飛行日都與 TDX 最後一週相同，所以 1/4 起沿用官網班表，共 26 個班號。",
     "compare": "桃園看板 11/3–11/5 的 JX 航班與班表完全相符，連時刻都一樣。另外 4 筆 11/3 抵達的航班是 11/1 起飛，早於本系統班表起點，不算未收錄；其中 JX3011、JX3031 是當天的特殊班號，之後恢復 JX11、JX31。清泉崗多列的 1 筆是 JX309：班表有、當日看板未列；JX303 當日看板比表定早 10 分鐘。松山與高雄目前沒有星宇航班，所以都是 0 筆。",
     "filled": "TDX 會把本週已過的日子移除，11/2–11/3 共 21 班依下一週同星期回填；桃園看板 11/3 的 11 班與回填結果相符。",
     "time": "官網每班只列一個代表時刻，TDX 則逐日微調，多半相差 5–20 分鐘，而且與桃園看板完全一致，所以時刻採 TDX。",
-    "partner": "JX7300／7301 桃園—阿布達比由阿提哈德航空執飛（EY898／899，波音 787-9）。桃園看板與 EY 班號並列、時刻相同；官網時刻表查不到，機場清單也標示非星宇自營。預設隱藏，可用上方按鈕打開。"
+    "partner": "JX7300／7301 桃園—阿布達比由阿提哈德航空執飛（EY898／899，波音 787-9）。桃園看板與 EY 班號並列、時刻相同；官網時刻表查不到，機場清單也標示非星宇自營。預設隱藏，可用上方按鈕打開。",
+    "sweep": "2026/11/4 另外加查官網 348 頁、2,447 個航班日：去程全部航線查 11/23–29、12/28–1/3、2/1–7、2/22–28、3/22–28，回程全部航線查 12/28–1/3、2/22–28，涵蓋先前沒查過的年底假期與農曆年前後。結果只有一筆差異：3/27 桃園—澳門早班官網用 JX3201、本系統原記 JX201，時刻相同，已修正。"
   },
   "absent": [
     "<b>松山機場</b>：官網機場清單標示非星宇自營、沒有可飛航點，松山機場當日航班與週表也沒有 JX 班號。星宇目前沒有松山國際線。",
@@ -27,14 +107,50 @@
     "<b>雪梨、蘇黎世</b>：官網機場清單已標示為星宇自營，但還沒有可飛航線；星宇公開的開航計畫在 2027 年。<b>巴塞隆納</b>目前只有合作航空銜接。<b>德里</b>維基百科列 2027 年，官網尚未開放。"
   ],
   "sources": [
-    {"name": "星宇航空班機時刻表", "url": "https://www.starlux-airlines.com/zh-TW/timetable", "what": "航線清單與抽查週的班號、飛行日、機型。"},
-    {"name": "星宇航空航線圖", "url": "https://www.starlux-airlines.com/zh-TW/experience/walk-into-starlux/route-map", "what": "航點對照。"},
-    {"name": "TDX 運輸資料流通服務", "url": "https://tdx.transportdata.tw/", "what": "國際定期航班，班表主幹與逐日時刻（2026/11/4 抓取）。"},
-    {"name": "桃園機場", "url": "https://www.taoyuan-airport.com/", "what": "即時航班，2026/11/3–11/5。"},
-    {"name": "松山機場定期班表", "url": "https://www.tsa.gov.tw/flights/international/regular", "what": "當日航班與週表，沒有 JX 班號。"},
-    {"name": "清泉崗機場航班時刻表", "url": "https://www.tca.gov.tw/?act=fids&code=regular_flight", "what": "當日航班與一週班號表。"},
-    {"name": "高雄機場定期班表", "url": "https://www.kia.gov.tw/FLIPLAN.html", "what": "當日航班與四週班表（2026/11/2–11/29），尚無 JX 班號。"},
-    {"name": "AeroRoutes 星宇專區", "url": "https://www.aeroroutes.com/eng/tag/Starlux+Airlines", "what": "高雄、大阪第三班、清泉崗、關島包機等公告。"},
-    {"name": "維基百科星宇航空航點", "url": "https://zh.wikipedia.org/zh-tw/星宇航空航點", "what": "只用來找可能遺漏的航點。"}
+    {
+      "name": "星宇航空班機時刻表",
+      "url": "https://www.starlux-airlines.com/zh-TW/timetable",
+      "what": "航線清單與抽查週的班號、飛行日、機型。"
+    },
+    {
+      "name": "星宇航空航線圖",
+      "url": "https://www.starlux-airlines.com/zh-TW/experience/walk-into-starlux/route-map",
+      "what": "航點對照。"
+    },
+    {
+      "name": "TDX 運輸資料流通服務",
+      "url": "https://tdx.transportdata.tw/",
+      "what": "國際定期航班，班表主幹與逐日時刻（2026/11/4 抓取）。"
+    },
+    {
+      "name": "桃園機場",
+      "url": "https://www.taoyuan-airport.com/",
+      "what": "即時航班，2026/11/3–11/5。"
+    },
+    {
+      "name": "松山機場定期班表",
+      "url": "https://www.tsa.gov.tw/flights/international/regular",
+      "what": "當日航班與週表，沒有 JX 班號。"
+    },
+    {
+      "name": "清泉崗機場航班時刻表",
+      "url": "https://www.tca.gov.tw/?act=fids&code=regular_flight",
+      "what": "當日航班與一週班號表。"
+    },
+    {
+      "name": "高雄機場定期班表",
+      "url": "https://www.kia.gov.tw/FLIPLAN.html",
+      "what": "當日航班與四週班表（2026/11/2–11/29），尚無 JX 班號。"
+    },
+    {
+      "name": "AeroRoutes 星宇專區",
+      "url": "https://www.aeroroutes.com/eng/tag/Starlux+Airlines",
+      "what": "高雄、大阪第三班、清泉崗、關島包機等公告。"
+    },
+    {
+      "name": "維基百科星宇航空航點",
+      "url": "https://zh.wikipedia.org/zh-tw/星宇航空航點",
+      "what": "只用來找可能遺漏的航點。"
+    }
   ]
 }
