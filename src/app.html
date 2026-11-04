@@ -804,7 +804,7 @@ function boxOf(pts, padX = .08, padY = .12){
   return {x:x0-px, y:y0-py, w:x1-x0+2*px, h:y1-y0+2*py};
 }
 const regionPts = regs => [AP.TPE.xy, AP.KHH.xy, ...[...ROUTES.values()].filter(r => regs.includes(r.region)).flatMap(r => r.pts)];
-const VIEWS = {all:() => boxOf([...ROUTES.values()].flatMap(r => r.pts), .03, .05), apac:() => boxOf(regionPts(['nea','cn','sea','sa','oc']), .05, .06)};
+const VIEWS = {all:() => boxOf([...ROUTES.values()].flatMap(r => r.pts), .03, .05), apac:() => boxOf(regionPts(['nea','cn','sea','sa','oc']), .3, .06)};   // portrait phones: padX leaves room for the labels left of Chiang Mai and Kuala Lumpur, right of Guam
 for (const r of REG_ORDER) VIEWS[r] = () => boxOf(regionPts([r]), .1, .16);
 const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
 let fly = null;
